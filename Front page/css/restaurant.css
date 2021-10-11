@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+h1 {
+    width:500px;
+    margin: 0 auto;
+    /*background: rgb(108, 148, 167);*/
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/rest.jpg);
+    height: 210vh;
+    background-size: cover;
+    background-position: center; 
+}
+
+.title h1{
+    color: teal;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li img{
+    display: inline-block;
+    line-height: 80px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    line-height: 20px;
+    transition: 0.6s ease;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    
+}
+.image {
+    flex-basis: 40%
+}
+
+a:hover {
+    background-color: rgb(48, 42, 42);
+}
